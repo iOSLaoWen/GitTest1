@@ -24,6 +24,7 @@
     [super viewDidLoad];
     NSLog(@"hehe1");
     NSLog(@"hehe2");
+    NSLog(@"hehe3");
     _webView=[[WKWebView alloc]initWithFrame:self.view.frame];
     _webView.navigationDelegate=self;
     
